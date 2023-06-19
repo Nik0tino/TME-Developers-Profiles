@@ -1,0 +1,39 @@
+{
+    "developers": [
+        {
+            "name": "BILAL CHENTOUF HMIMEN",
+            "age": "16",
+            "skills": "Web Developer",
+            "country": "Maroc",
+            "city": "Tanger"
+        },
+        {
+            "name": "N1CHO",
+            "age": "17",
+            "skills": "Back-end Developer",
+            "country": "Maroc",
+            "city": "Layyone"
+        },
+        {
+            "name": "Mohamed Johny",
+            "age": "40",
+            "skills": "Host Manager",
+            "country": "United Stats",
+            "city": "New York"
+        },
+        {
+            "name": "Elon Musk",
+            "age": "40",
+            "skills": "Full Stack Developer",
+            "country": "United States",
+            "city": "Texas"
+        },
+        {
+            "name": "Alex Ander",
+            "age": "28",
+            "skills": "Back-end Developer",
+            "country": "United States",
+            "city": "New York"
+        }
+    ]
+}

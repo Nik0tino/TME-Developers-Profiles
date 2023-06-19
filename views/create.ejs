@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./create.css">
+  <title>Developers Information</title>
+</head>
+
+<body>
+  <section class="primarySection">
+    <%- include("./headers/nav.ejs") %>
+  </section>
+
+  
+  <form action="/create" method="post" class="Form">
+    <label for="name">Name</label>
+    <br>
+    <input type="text" name="name" id="name" required>
+    <br>
+    <label for="age">Age</label>
+    <br>
+    <input type="number" name="age" id="age" required>
+    <br>
+    <label for="skills">Skills</label>
+    <br>
+    <input type="text" name="skills" id="skills" required>
+    <br>
+    <label for="country">Country</label>
+    <br>
+
+    <input type="text" name="country" id="country" required>
+    <br>
+    <label for="city">City</label>
+    <br>
+
+    <input type="text" name="city" id="city" required>
+    <br>
+    <br>
+    <input type="submit" value="submit" required>
+  </form>
+</body>
+
+</html>

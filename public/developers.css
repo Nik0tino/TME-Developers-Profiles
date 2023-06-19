@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Lilita+One&family=Poppins:ital,wght@0,100;0,200;1,100&family=Righteous&family=Roboto:ital,wght@0,500;1,400&display=swap');
+* {
+    margin:0;
+    padding:0;
+    font-family: Roboto;
+}
+
+body {
+    background-color: rgb(46, 46, 48);
+}
+.primarySection {
+    padding:15px;
+    background-color: #f1f1f1;
+}
+
+.primarySection {
+    padding: 15px;
+}
+
+.primarySection nav ul li {
+    display: inline-flex;
+    font-size: 20px;
+   list-style:none;
+   padding: 5px;
+
+}
+
+.primarySection nav ul li a {
+    color: rgb(19, 18, 18);
+    text-decoration: none;
+}
+
+.secondarySection {
+    padding: 20px;
+}
+.Cards {
+    display: inline-block;
+    padding: 8px;
+}

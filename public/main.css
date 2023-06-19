@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Lilita+One&family=Poppins:ital,wght@0,100;0,200;1,100&family=Righteous&family=Roboto:ital,wght@0,500;1,400&display=swap');
+* {
+    margin:0;
+    padding:0;
+    font-family: Roboto;
+}
+
+body {
+    background-color: #1a0661;
+}
+.primarySection {
+    padding:15px;
+    background-color: #f1f1f1;
+}
+
+.primarySection {
+    padding: 15px;
+}
+
+.primarySection nav ul li {
+    display: inline-flex;
+    font-size: 20px;
+   list-style:none;
+   padding: 5px;
+
+}
+
+.primarySection nav ul li a {
+    color: rgb(19, 18, 18);
+    text-decoration: none;
+}
+.Container {
+    padding: 120px;
+}
+.Container h2 {
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+.Container p {
+   width: 50%;
+   font-size: 25px;
+}
+
+.Container a {
+    background-color: rgb(37, 36, 39);
+    text-decoration: none;
+    border-radius: 19px;
+    font-size: 20px;
+    padding: 10px;
+    color: whitesmoke;
+    transition: 0.8s;
+}
+
+#bdev:hover {
+    background-color: rgb(79, 77, 85);
+    padding: 13px;
+}

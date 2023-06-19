@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./developers.css">
+    <title>Developers</title>
+</head>
+
+<body>
+ 
+    <section class="primarySection">
+        <%- include("./headers/nav.ejs") %>
+    </section>
+
+    <section class="secondarySection">
+        <% for(let i =0; i < developer.length; i++) { %>
+        <div class="Cards">
+            <h2>Name : <%- developer[i].name -%></h2>
+            <h2>age : <%- developer[i].age -%></h2>
+            <h2>skills : <%- developer[i].skills -%></h2>
+            <h2>country : <%- developer[i].country -%></h2>
+            <h2>city : <%- developer[i].city -%></h2>
+        
+
+        </div>
+        <%}%>
+    </section>
+</body>
+
+</html>
