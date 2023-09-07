@@ -48,7 +48,7 @@ This is a web application built with Node.js and EJS that allows users to create
 ## Author
 
 - Name: Bilal Chentouf
-- Email: bilalchen207@gmail.com
+- Email: bilalchentouf102@gmail.com
 
 ## Links
 
