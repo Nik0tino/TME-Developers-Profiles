@@ -10,7 +10,7 @@ This is a web application built with Node.js and EJS that allows users to create
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/dr-root102/TME-Developers-Profiles/
+   git clone https://github.com/Nik0tino/TME-Developers-Profiles/
    ```
 
 2. Install the required packages:
